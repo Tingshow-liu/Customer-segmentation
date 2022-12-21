@@ -1,7 +1,7 @@
-from JP_rfm_from_gbq import Import_data
-from JP_rfm_preprocess import Data_preprocess
-from JP_rfm_model import construct_model
-from JP_rfm_to_gbq import to_GBQ
+from import_data_from_gbq import Import_data
+from data_preprocess import Data_preprocess
+from model_construction import construct_model
+from segment_result_to_gbq import to_GBQ
 
 
 if __name__ == "__main__":
