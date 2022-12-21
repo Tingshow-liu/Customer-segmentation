@@ -5,7 +5,7 @@ from google.cloud import bigquery as bq
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
 
 
-# Upload RFM segmentation result to GBQ
+# Upload segmentation result to GBQ
 class to_GBQ:
     
     def __init__(self, rfm_results, cluster_info, project, dataset, table, creator, campaign_lst, country):
